@@ -12,7 +12,7 @@ This is custom firmware for Weekin-Y40 DIY keyboard. Author didn't provide QMK c
 ### Steps:
 
 * Copy `weekin` directory to QMK `keyboards` directory
-* Build with `qmk compile -kb weekin/y40 -km default` command
+* Build with `qmk compile -kb weekin/y40 -km default` command. Alternatively, you can build Bongo Cat version with `qmk compile -kb weekin/y40 -km bongocat`, but VIA and RGB functions will be disabled due to limited MCU memory.
 * Flash firmware from `.build` directory following instructions provided with Weekin-Y40 kit
 * Optional: Load `weekin_y40_v3_custom.json` into VIA following instructions provided with Weekin-Y40 kit
 * If everything went fine now you can make your own customization, rebuild and reflash QMK firmware
